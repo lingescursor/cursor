@@ -23,6 +23,7 @@ public class EmployeeController {
 
     @GetMapping("/{id}")
     public Employee getEmployeeById(@PathVariable Long id) {
+        System.out.println("getEmployeeById");
         return employeeService.getEmployeeById(id);
     }
 
