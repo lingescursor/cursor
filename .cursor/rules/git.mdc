@@ -1,0 +1,6 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+While using git and while make commit make sure commit message start from JIRA number ask from user
